@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D6851AA2B17EA0E00D2FE28 /* PlayerCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6851A92B17EA0E00D2FE28 /* PlayerCells.swift */; };
+		7D9B73742B2A51D60011F0DE /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9B73732B2A51D60011F0DE /* Color+Codable.swift */; };
+		7D9B73762B2A5BAE0011F0DE /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9B73752B2A5BAE0011F0DE /* GameModel.swift */; };
+		7DA1E08D2B19111E00316545 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1E08C2B19111E00316545 /* Player.swift */; };
+		7DA1E08F2B19235500316545 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1E08E2B19235500316545 /* House.swift */; };
+		7DA1E0912B19447100316545 /* StreetsCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1E0902B19447100316545 /* StreetsCells.swift */; };
+		7DA1FCDD2B1E0B8C00FDAA8C /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1FCDC2B1E0B8C00FDAA8C /* GameViewModel.swift */; };
+		7DD698372B2B8E3300A9DB64 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD698362B2B8E3300A9DB64 /* PlayerView.swift */; };
+		7DD698392B2BC01D00A9DB64 /* BankirReciever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD698382B2BC01D00A9DB64 /* BankirReciever.swift */; };
+		7DD6983B2B2F979F00A9DB64 /* PayRentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6983A2B2F979F00A9DB64 /* PayRentView.swift */; };
+		7DD6983F2B32431800A9DB64 /* ModelForSend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6983E2B32431800A9DB64 /* ModelForSend.swift */; };
+		7DD698472B3245CF00A9DB64 /* StreetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD698462B3245CF00A9DB64 /* StreetsView.swift */; };
+		7DD698492B339B1300A9DB64 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD698482B339B1300A9DB64 /* AlertManager.swift */; };
+		7DE362A32B29ED0500E56D07 /* EnterNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE362A22B29ED0500E56D07 /* EnterNameView.swift */; };
+		7DE362A52B29ED4800E56D07 /* LobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE362A42B29ED4800E56D07 /* LobbyView.swift */; };
+		7DE362A72B29ED7600E56D07 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE362A62B29ED7600E56D07 /* GameView.swift */; };
+		7DE362AB2B29F13000E56D07 /* Coder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE362AA2B29F13000E56D07 /* Coder.swift */; };
+		7DE848B42B388DC70015F8E9 /* BuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE848B32B388DC70015F8E9 /* BuyView.swift */; };
+		7DE848B62B3CF2970015F8E9 /* BuyHotelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE848B52B3CF2970015F8E9 /* BuyHotelsView.swift */; };
+		7DE848B82B3F402D0015F8E9 /* TradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE848B72B3F402D0015F8E9 /* TradeView.swift */; };
+		8E4BC7CB2B27A5A900F827E2 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4BC7CA2B27A5A900F827E2 /* StartScreen.swift */; };
+		8EE42A702A7481BB00AF7E5E /* MonopolyBankirApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE42A6F2A7481BB00AF7E5E /* MonopolyBankirApp.swift */; };
+		8EE42A742A7481BC00AF7E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE42A732A7481BC00AF7E5E /* Assets.xcassets */; };
+		8EE42A772A7481BC00AF7E5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE42A762A7481BC00AF7E5E /* Preview Assets.xcassets */; };
+		8EE42A7E2A74837000AF7E5E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE42A7D2A74837000AF7E5E /* Router.swift */; };
+		8EE42A862A74882100AF7E5E /* LocalNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE42A852A74882100AF7E5E /* LocalNetwork.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D6851A92B17EA0E00D2FE28 /* PlayerCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCells.swift; sourceTree = "<group>"; };
+		7D9B73732B2A51D60011F0DE /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		7D9B73752B2A5BAE0011F0DE /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		7DA1E08C2B19111E00316545 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		7DA1E08E2B19235500316545 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		7DA1E0902B19447100316545 /* StreetsCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetsCells.swift; sourceTree = "<group>"; };
+		7DA1FCDC2B1E0B8C00FDAA8C /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		7DD698362B2B8E3300A9DB64 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		7DD698382B2BC01D00A9DB64 /* BankirReciever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankirReciever.swift; sourceTree = "<group>"; };
+		7DD6983A2B2F979F00A9DB64 /* PayRentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayRentView.swift; sourceTree = "<group>"; };
+		7DD6983E2B32431800A9DB64 /* ModelForSend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForSend.swift; sourceTree = "<group>"; };
+		7DD698462B3245CF00A9DB64 /* StreetsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreetsView.swift; sourceTree = "<group>"; };
+		7DD698482B339B1300A9DB64 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		7DE362A22B29ED0500E56D07 /* EnterNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameView.swift; sourceTree = "<group>"; };
+		7DE362A42B29ED4800E56D07 /* LobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyView.swift; sourceTree = "<group>"; };
+		7DE362A62B29ED7600E56D07 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7DE362AA2B29F13000E56D07 /* Coder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coder.swift; sourceTree = "<group>"; };
+		7DE848B32B388DC70015F8E9 /* BuyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyView.swift; sourceTree = "<group>"; };
+		7DE848B52B3CF2970015F8E9 /* BuyHotelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyHotelsView.swift; sourceTree = "<group>"; };
+		7DE848B72B3F402D0015F8E9 /* TradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeView.swift; sourceTree = "<group>"; };
+		8E4BC7CA2B27A5A900F827E2 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		8EE42A6C2A7481BB00AF7E5E /* MonopolyBankir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonopolyBankir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE42A6F2A7481BB00AF7E5E /* MonopolyBankirApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonopolyBankirApp.swift; sourceTree = "<group>"; };
+		8EE42A732A7481BC00AF7E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EE42A762A7481BC00AF7E5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EE42A7D2A74837000AF7E5E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8EE42A852A74882100AF7E5E /* LocalNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetwork.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EE42A692A7481BB00AF7E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DC3074A2B28E0CF00C7B53B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C29BE8B32B38F3B7002AB962 /* FirstStage */,
+				7DE362A62B29ED7600E56D07 /* GameView.swift */,
+				7DD698462B3245CF00A9DB64 /* StreetsView.swift */,
+				7DD698362B2B8E3300A9DB64 /* PlayerView.swift */,
+				7DD6983A2B2F979F00A9DB64 /* PayRentView.swift */,
+				7DE848B32B388DC70015F8E9 /* BuyView.swift */,
+				7DE848B52B3CF2970015F8E9 /* BuyHotelsView.swift */,
+				7DE848B72B3F402D0015F8E9 /* TradeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DE3629F2B29EB9B00E56D07 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7DA1E0902B19447100316545 /* StreetsCells.swift */,
+				7D6851A92B17EA0E00D2FE28 /* PlayerCells.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7DE362A02B29EBAC00E56D07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7DA1FCDC2B1E0B8C00FDAA8C /* GameViewModel.swift */,
+				7D9B73752B2A5BAE0011F0DE /* GameModel.swift */,
+				7DD6983E2B32431800A9DB64 /* ModelForSend.swift */,
+				7DA1E08E2B19235500316545 /* House.swift */,
+				7DA1E08C2B19111E00316545 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7DE362A12B29ECBD00E56D07 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8EE42A852A74882100AF7E5E /* LocalNetwork.swift */,
+				8EE42A7D2A74837000AF7E5E /* Router.swift */,
+				7DE362AA2B29F13000E56D07 /* Coder.swift */,
+				7D9B73732B2A51D60011F0DE /* Color+Codable.swift */,
+				7DD698382B2BC01D00A9DB64 /* BankirReciever.swift */,
+				7DD698482B339B1300A9DB64 /* AlertManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8EE42A632A7481BB00AF7E5E = {
+			isa = PBXGroup;
+			children = (
+				8EE42A6E2A7481BB00AF7E5E /* MonopolyBankir */,
+				8EE42A6D2A7481BB00AF7E5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EE42A6D2A7481BB00AF7E5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EE42A6C2A7481BB00AF7E5E /* MonopolyBankir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EE42A6E2A7481BB00AF7E5E /* MonopolyBankir */ = {
+			isa = PBXGroup;
+			children = (
+				8EE42A6F2A7481BB00AF7E5E /* MonopolyBankirApp.swift */,
+				7DE362A12B29ECBD00E56D07 /* Services */,
+				7DC3074A2B28E0CF00C7B53B /* Views */,
+				7DE362A02B29EBAC00E56D07 /* Models */,
+				7DE3629F2B29EB9B00E56D07 /* Cells */,
+				8EE42A732A7481BC00AF7E5E /* Assets.xcassets */,
+				8EE42A752A7481BC00AF7E5E /* Preview Content */,
+			);
+			path = MonopolyBankir;
+			sourceTree = "<group>";
+		};
+		8EE42A752A7481BC00AF7E5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EE42A762A7481BC00AF7E5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C29BE8B32B38F3B7002AB962 /* FirstStage */ = {
+			isa = PBXGroup;
+			children = (
+				8E4BC7CA2B27A5A900F827E2 /* StartScreen.swift */,
+				7DE362A22B29ED0500E56D07 /* EnterNameView.swift */,
+				7DE362A42B29ED4800E56D07 /* LobbyView.swift */,
+			);
+			path = FirstStage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EE42A6B2A7481BB00AF7E5E /* MonopolyBankir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE42A7A2A7481BC00AF7E5E /* Build configuration list for PBXNativeTarget "MonopolyBankir" */;
+			buildPhases = (
+				8EE42A682A7481BB00AF7E5E /* Sources */,
+				8EE42A692A7481BB00AF7E5E /* Frameworks */,
+				8EE42A6A2A7481BB00AF7E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonopolyBankir;
+			productName = MonopolyBankir;
+			productReference = 8EE42A6C2A7481BB00AF7E5E /* MonopolyBankir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EE42A642A7481BB00AF7E5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8EE42A6B2A7481BB00AF7E5E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 8EE42A672A7481BB00AF7E5E /* Build configuration list for PBXProject "MonopolyBankir" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EE42A632A7481BB00AF7E5E;
+			productRefGroup = 8EE42A6D2A7481BB00AF7E5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EE42A6B2A7481BB00AF7E5E /* MonopolyBankir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EE42A6A2A7481BB00AF7E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE42A772A7481BC00AF7E5E /* Preview Assets.xcassets in Resources */,
+				8EE42A742A7481BC00AF7E5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EE42A682A7481BB00AF7E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6851AA2B17EA0E00D2FE28 /* PlayerCells.swift in Sources */,
+				7DA1E0912B19447100316545 /* StreetsCells.swift in Sources */,
+				7DE362AB2B29F13000E56D07 /* Coder.swift in Sources */,
+				7DE848B62B3CF2970015F8E9 /* BuyHotelsView.swift in Sources */,
+				7DD6983F2B32431800A9DB64 /* ModelForSend.swift in Sources */,
+				7DE362A32B29ED0500E56D07 /* EnterNameView.swift in Sources */,
+				7DD698492B339B1300A9DB64 /* AlertManager.swift in Sources */,
+				7DD698372B2B8E3300A9DB64 /* PlayerView.swift in Sources */,
+				7DA1E08F2B19235500316545 /* House.swift in Sources */,
+				7D9B73762B2A5BAE0011F0DE /* GameModel.swift in Sources */,
+				7DE848B42B388DC70015F8E9 /* BuyView.swift in Sources */,
+				8EE42A7E2A74837000AF7E5E /* Router.swift in Sources */,
+				7DD698472B3245CF00A9DB64 /* StreetsView.swift in Sources */,
+				7DA1FCDD2B1E0B8C00FDAA8C /* GameViewModel.swift in Sources */,
+				7DE362A52B29ED4800E56D07 /* LobbyView.swift in Sources */,
+				8E4BC7CB2B27A5A900F827E2 /* StartScreen.swift in Sources */,
+				7DE362A72B29ED7600E56D07 /* GameView.swift in Sources */,
+				8EE42A862A74882100AF7E5E /* LocalNetwork.swift in Sources */,
+				7DD698392B2BC01D00A9DB64 /* BankirReciever.swift in Sources */,
+				8EE42A702A7481BB00AF7E5E /* MonopolyBankirApp.swift in Sources */,
+				7D9B73742B2A51D60011F0DE /* Color+Codable.swift in Sources */,
+				7DE848B82B3F402D0015F8E9 /* TradeView.swift in Sources */,
+				7DD6983B2B2F979F00A9DB64 /* PayRentView.swift in Sources */,
+				7DA1E08D2B19111E00316545 /* Player.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8EE42A782A7481BC00AF7E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EE42A792A7481BC00AF7E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EE42A7B2A7481BC00AF7E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonopolyBankir/Preview Content\"";
+				DEVELOPMENT_TEAM = U35946W2F2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vasilkow.Viktor.MonopolyBankir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EE42A7C2A7481BC00AF7E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonopolyBankir/Preview Content\"";
+				DEVELOPMENT_TEAM = U35946W2F2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vasilkow.Viktor.MonopolyBankir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EE42A672A7481BB00AF7E5E /* Build configuration list for PBXProject "MonopolyBankir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE42A782A7481BC00AF7E5E /* Debug */,
+				8EE42A792A7481BC00AF7E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE42A7A2A7481BC00AF7E5E /* Build configuration list for PBXNativeTarget "MonopolyBankir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE42A7B2A7481BC00AF7E5E /* Debug */,
+				8EE42A7C2A7481BC00AF7E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EE42A642A7481BB00AF7E5E /* Project object */;
+}
